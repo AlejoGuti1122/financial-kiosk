@@ -1,9 +1,9 @@
 import React from "react"
 import { Routes, Route, BrowserRouter } from "react-router-dom"
 
-import NoMatch from "../NoMatch/NoMatch.tsx"
-import HomePage from "../../../../pages/home.tsx"
-import RegisterFormPage from "../../../../pages/register-form.tsx"
+import NoMatch from "../NoMatch/NoMatch.jsx"
+import HomePage from "../../../../pages/home.jsx"
+import RegisterFormPage from "../../../../pages/register-form.jsx"
 
 const RouterComponent = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react"
-import LayoutComponent from "../modules/home/components/Layout/Layout.tsx"
+import LayoutComponent from "../modules/home/components/Layout/Layout.jsx"
 
 const HomePage = () => {
   return (
