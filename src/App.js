@@ -1,4 +1,4 @@
-import RouterComponent from "./modules/common/components/Router/Router.tsx"
+import RouterComponent from "./modules/common/components/Router/Router.jsx"
 
 const App = () => {
   return (
