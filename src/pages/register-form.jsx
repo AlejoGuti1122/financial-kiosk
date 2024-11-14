@@ -1,7 +1,12 @@
 import React from "react"
+import Layout from "../modules/register-form/components/Layout/Layout"
 
 const RegisterFormPage = () => {
-  return <div>RegisterFormPage</div>
+  return (
+    <div>
+      <Layout />
+    </div>
+  )
 }
 
 export default RegisterFormPage
