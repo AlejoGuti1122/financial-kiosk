@@ -1,9 +1,10 @@
-import React from "react"
 import { Routes, Route, BrowserRouter } from "react-router-dom"
-
 import NoMatch from "../NoMatch/NoMatch.jsx"
 import HomePage from "../../../../pages/home.jsx"
 import RegisterFormPage from "../../../../pages/register-form.jsx"
+import TerminosCondiciones from "../../../../pages/terminos-condiciones.jsx"
+import Treatment from "../../../../pages/treatment.jsx"
+import Loader from "../../../../pages/loader.jsx"
 
 const RouterComponent = () => {
   return (
@@ -17,7 +18,18 @@ const RouterComponent = () => {
           path="/register-form"
           element={<RegisterFormPage />}
         />
-
+        <Route
+          path="/terminos-condiciones"
+          element={<TerminosCondiciones />}
+        />
+        <Route
+          path="/treatment"
+          element={<Treatment />}
+        />
+        <Route
+          path="/loader"
+          element={<Loader />}
+        />
         <Route
           path="*"
           element={<NoMatch />}
