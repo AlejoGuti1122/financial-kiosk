@@ -5,6 +5,7 @@ import RegisterFormPage from "../../../../pages/register-form.jsx"
 import TerminosCondiciones from "../../../../pages/terminos-condiciones.jsx"
 import Treatment from "../../../../pages/treatment.jsx"
 import Loader from "../../../../pages/loader.jsx"
+import Credit from "../../../../pages/credit.jsx"
 
 const RouterComponent = () => {
   return (
@@ -29,6 +30,10 @@ const RouterComponent = () => {
         <Route
           path="/loader"
           element={<Loader />}
+        />
+        <Route
+          path="/credit"
+          element={<Credit />}
         />
         <Route
           path="*"
