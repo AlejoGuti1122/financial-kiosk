@@ -4,7 +4,7 @@ import informaciontwo from "../../../../assets/credit/Informacion.png"
 const CredicreaTwo = () => {
   return (
     <div className="flex items-center justify-center">
-      <div className="w-full h-[80px] bg-[#FBD600] rounded-b-lg flex items-center justify-between px-4">
+      <div className="w-full h-[73px] bg-[#FBD600] rounded-b-lg flex items-center justify-between px-4">
         <img
           src={credicreatwo}
           alt=""

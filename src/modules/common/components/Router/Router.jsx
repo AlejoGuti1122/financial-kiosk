@@ -6,6 +6,7 @@ import TerminosCondiciones from "../../../../pages/terminos-condiciones.jsx"
 import Treatment from "../../../../pages/treatment.jsx"
 import Loader from "../../../../pages/loader.jsx"
 import Credit from "../../../../pages/credit.jsx"
+import Filters from "../../../../pages/filters.jsx"
 
 const RouterComponent = () => {
   return (
@@ -34,6 +35,10 @@ const RouterComponent = () => {
         <Route
           path="/credit"
           element={<Credit />}
+        />
+        <Route
+          path="/filters"
+          element={<Filters />}
         />
         <Route
           path="*"
