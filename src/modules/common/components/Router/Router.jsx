@@ -8,6 +8,7 @@ import Loader from "../../../../pages/loader.jsx"
 import Credit from "../../../../pages/credit.jsx"
 import Filters from "../../../../pages/filters.jsx"
 import Redirection from "../../../../pages/redirection.jsx"
+import Confirmation from "../../../../pages/confirmation.jsx"
 
 const RouterComponent = () => {
   return (
@@ -44,6 +45,10 @@ const RouterComponent = () => {
         <Route
           path="/redirection"
           element={<Redirection />}
+        />
+        <Route
+          path="/confirmation"
+          element={<Confirmation />}
         />
         <Route
           path="*"
