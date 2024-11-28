@@ -9,6 +9,7 @@ import Credit from "../../../../pages/credit.jsx"
 import Filters from "../../../../pages/filters.jsx"
 import Redirection from "../../../../pages/redirection.jsx"
 import Confirmation from "../../../../pages/confirmation.jsx"
+import General from "../../../../pages/general.jsx"
 
 const RouterComponent = () => {
   return (
@@ -49,6 +50,10 @@ const RouterComponent = () => {
         <Route
           path="/confirmation"
           element={<Confirmation />}
+        />
+        <Route
+          path="/general"
+          element={<General />}
         />
         <Route
           path="*"
