@@ -10,6 +10,7 @@ import Filters from "../../../../pages/filters.jsx"
 import Redirection from "../../../../pages/redirection.jsx"
 import Confirmation from "../../../../pages/confirmation.jsx"
 import General from "../../../../pages/general.jsx"
+import FiltersRm from "../../../../pages/filters-rm.jsx"
 
 const RouterComponent = () => {
   return (
@@ -54,6 +55,10 @@ const RouterComponent = () => {
         <Route
           path="/general"
           element={<General />}
+        />
+        <Route
+          path="/rm"
+          element={<FiltersRm />}
         />
         <Route
           path="*"
