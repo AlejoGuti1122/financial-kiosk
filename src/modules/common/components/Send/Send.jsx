@@ -1,21 +1,19 @@
-import send from "../../../../assets/redirection/send.png"
+import send from "../../../../assets/redirectionHome/send.png"
 import cap from "../../../../assets/redirection/Capa_1.png"
 
-const RedirectionView = () => {
+const Send = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-screen">
-      <div className="flex justify-center items-center -mt-40">
+    <div className="flex justify-center items-center p-7 -mt-28">
+      <div className="flex justify-center h-screen items-center flex-col">
         <img
-          className="w-28 h-28"
           src={send}
           alt=""
         />
-      </div>
-      <div className="flex flex-col justify-center items-center">
-        <p className="text-[#333333]">¡Ya casi terminamos!</p>
-        <p className="text-center text-[#333333] mt-5">
-          Está siendo redirigido a la plataforma del <br />
-          participante financiero seleccionado.
+
+        <h1 className="text-[#333333]">¡Ya casi terminamos!</h1>
+        <p className="text-center text-[#333333] mt-8">
+          Estás siendo redirigido a la plataforma del participante financiero
+          seleccionado.
         </p>
         <div className="w-[350px] h-[48px] bg-[#CFDCF3] mt-10 flex items-center flex-row gap-2">
           <img
@@ -33,4 +31,4 @@ const RedirectionView = () => {
   )
 }
 
-export default RedirectionView
+export default Send
