@@ -3,11 +3,11 @@ import informacion from "../../../../assets/form/Información.png"
 
 const Credicrea = () => {
   return (
-    <div className="justify-between w-full h-[68px] bg-[#0072CE] rounded-b-lg items-center flex">
+    <div className="justify-between w-full h-[75px] bg-[#0072CE] rounded-b-lg items-center flex">
       <div>
         {" "}
         <img
-          className="ml-5 h-5 w-[150px]"
+          className="ml-5 h-6 w-[150px]"
           src={credicrea}
           alt=""
         />

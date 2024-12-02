@@ -12,6 +12,7 @@ import Confirmation from "../../../../pages/confirmation.jsx"
 import General from "../../../../pages/general.jsx"
 import FiltersRm from "../../../../pages/filters-rm.jsx"
 import RedirectionHome from "../../../../pages/redirection-home.jsx"
+import ConfirmationGeneral from "../../../../pages/confirmation-general.jsx"
 
 const RouterComponent = () => {
   return (
@@ -61,9 +62,13 @@ const RouterComponent = () => {
           path="/rm"
           element={<FiltersRm />}
         />
-         <Route
+        <Route
           path="/rhome"
           element={<RedirectionHome />}
+        />
+        <Route
+          path="/hc"
+          element={<ConfirmationGeneral />}
         />
         <Route
           path="*"
