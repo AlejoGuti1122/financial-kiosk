@@ -13,6 +13,8 @@ import General from "../../../../pages/general.jsx"
 import FiltersRm from "../../../../pages/filters-rm.jsx"
 import RedirectionHome from "../../../../pages/redirection-home.jsx"
 import ConfirmationGeneral from "../../../../pages/confirmation-general.jsx"
+import Successful from "../Successful/Successful.jsx"
+import SuccessfulView from "../../../../pages/successful-view.jsx"
 
 const RouterComponent = () => {
   return (
@@ -69,6 +71,10 @@ const RouterComponent = () => {
         <Route
           path="/hc"
           element={<ConfirmationGeneral />}
+        />
+        <Route
+          path="/successful"
+          element={<SuccessfulView />}
         />
         <Route
           path="*"
