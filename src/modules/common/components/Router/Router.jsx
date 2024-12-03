@@ -15,6 +15,7 @@ import RedirectionHome from "../../../../pages/redirection-home.jsx"
 import ConfirmationGeneral from "../../../../pages/confirmation-general.jsx"
 import Successful from "../Successful/Successful.jsx"
 import SuccessfulView from "../../../../pages/successful-view.jsx"
+import OptionsCredit from "../../../../pages/options-cedit.jsx"
 
 const RouterComponent = () => {
   return (
@@ -75,6 +76,10 @@ const RouterComponent = () => {
         <Route
           path="/successful"
           element={<SuccessfulView />}
+        />
+        <Route
+          path="/options"
+          element={<OptionsCredit />}
         />
         <Route
           path="*"

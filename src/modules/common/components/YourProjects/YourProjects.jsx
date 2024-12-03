@@ -3,7 +3,7 @@ import select2 from "../../../../assets/credit/select2.png"
 
 const YourProjects = () => {
   return (
-    <div className="flex mt-8 ml-8">
+    <div className="flex mt-4 ml-8">
       <div className="w-[365px] h-[134px] border-[#FFFFFF] border rounded-lg relative shadow-lg shadow-gray-500/50">
         {/* Línea azul superior */}
         <div className="h-3 bg-[#0072CE] rounded-t-xl"></div>
