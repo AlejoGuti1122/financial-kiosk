@@ -2,7 +2,7 @@ import React from "react"
 
 const TextOptions = () => {
   return (
-    <div className="flex items-center justify-start ml-2">
+    <div className="flex items-center justify-start ml-1">
       <div className="flex flex-col p-6">
         <h1 className=" text-[#333333] text-xl font-bold">
           ¡Excelentes noticias!
