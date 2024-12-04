@@ -104,7 +104,7 @@ const CardForm = () => {
           </p>
         </div>
         <div className="flex justify-center items-center">
-          <button className="text-[#FFFFFF] w-[312px] h-12 bg-[#DD0021] rounded-md">Solicitar</button>
+          <button className="text-[#FFFFFF] w-[343px] h-12 bg-[#DD0021] rounded-md">Solicitar</button>
         </div>
       </div>
     </div>

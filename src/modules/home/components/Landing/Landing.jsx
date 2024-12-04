@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import logoCredicrea from "../../../../assets/navbar/logo-credicrea.jpg"
 
 const Ejemplo = () => {
@@ -29,10 +30,11 @@ const Ejemplo = () => {
       </div>
 
       <div>
-        {" "}
-        <button className="w-[400px] h-[54px] bg-[#0072CE] text-[#FFFFFF]  rounded-[4px] mb-5">
-          Continuar
-        </button>
+        <NavLink to="/register-form">
+          <button className="w-[400px] h-[54px] bg-[#0072CE] text-[#FFFFFF]  rounded-[4px] mb-5">
+            Continuar
+          </button>
+        </NavLink>
       </div>
     </div>
   )
