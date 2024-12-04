@@ -13,9 +13,9 @@ import General from "../../../../pages/general.jsx"
 import FiltersRm from "../../../../pages/filters-rm.jsx"
 import RedirectionHome from "../../../../pages/redirection-home.jsx"
 import ConfirmationGeneral from "../../../../pages/confirmation-general.jsx"
-import Successful from "../Successful/Successful.jsx"
 import SuccessfulView from "../../../../pages/successful-view.jsx"
 import OptionsCredit from "../../../../pages/options-cedit.jsx"
+import FormView from "../../../../pages/form-view.jsx"
 
 const RouterComponent = () => {
   return (
@@ -80,6 +80,10 @@ const RouterComponent = () => {
         <Route
           path="/options"
           element={<OptionsCredit />}
+        />
+        <Route
+          path="/view"
+          element={<FormView />}
         />
         <Route
           path="*"
