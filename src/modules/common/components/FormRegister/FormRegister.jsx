@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { NavLink } from "react-router-dom"
 
 const FormRegister = () => {
   const [clickedInputs, setClickedInputs] = useState({
@@ -58,7 +59,9 @@ const FormRegister = () => {
       if (!regex.test(value)) {
         setErrors((prevState) => ({
           ...prevState,
-          [name]: `Por favor escribe un número ${name === "phoneNumber" ? "de teléfono" : ""} válido.`,
+          [name]: `Por favor escribe un número ${
+            name === "phoneNumber" ? "de teléfono" : ""
+          } válido.`,
         }))
       } else {
         setErrors((prevState) => ({
@@ -387,13 +390,15 @@ const FormRegister = () => {
           </div>
 
           {/* Botón Consultar */}
-          <button
-            className={`w-full h-[54px] border rounded-md ${
-              isChecked ? "bg-blue-500 text-white" : "border-[#BFBFBF]"
-            }`}
-          >
-            Consultar
-          </button>
+          <NavLink to="/filters">
+            <button
+              className={`w-full h-[54px] border rounded-md mt-[6px] ${
+                isChecked ? "bg-blue-500 text-white" : "border-[#BFBFBF]"
+              }`}
+            >
+              Consultar
+            </button>
+          </NavLink>
         </form>
       </div>
     </div>

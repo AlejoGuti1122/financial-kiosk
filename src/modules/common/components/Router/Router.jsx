@@ -16,6 +16,7 @@ import ConfirmationGeneral from "../../../../pages/confirmation-general.jsx"
 import SuccessfulView from "../../../../pages/successful-view.jsx"
 import OptionsCredit from "../../../../pages/options-cedit.jsx"
 import FormView from "../../../../pages/form-view.jsx"
+import Registration from "../../../../pages/registration.jsx"
 
 const RouterComponent = () => {
   return (
@@ -84,6 +85,10 @@ const RouterComponent = () => {
         <Route
           path="/view"
           element={<FormView />}
+        />
+         <Route
+          path="/registration"
+          element={<Registration />}
         />
         <Route
           path="*"
