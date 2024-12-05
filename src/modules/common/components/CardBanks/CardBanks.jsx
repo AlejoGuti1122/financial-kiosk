@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { NavLink } from "react-router-dom"
 
 const CardBanks = () => {
   const [selectedCard, setSelectedCard] = useState(null)
@@ -78,15 +79,17 @@ const CardBanks = () => {
         <GenericCard />
       </div>
       <div className="flex justify-center items-center mt-52 border border-[#595959] h-[86px]">
-        <button
-          className={`w-[370px] h-[55px] rounded-md ${
-            selectedCard
-              ? "bg-black text-white"
-              : "bg-[#F5F5F5] text-[#8C8C8C] border"
-          }`}
-        >
-          Solicitar crédito
-        </button>
+        <NavLink to="/confirmation">
+          <button
+            className={`w-[370px] h-[55px] rounded-md ${
+              selectedCard
+                ? "bg-black text-white"
+                : "bg-[#F5F5F5] text-[#8C8C8C] border"
+            }`}
+          >
+            Solicitar crédito
+          </button>
+        </NavLink>
       </div>
     </div>
   )
